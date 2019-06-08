@@ -1,0 +1,30 @@
+{
+	"name": "glister",
+	"displayName": "glister",
+	"description": "This minimalist theme is based on the 'hack3r' theme",
+	"version": "0.23.5",
+    "preview": false,
+	"publisher": "cfsops",
+    "readme": "README.md",
+    "author": "Bill Potvin",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+    "keywords": [
+		"min",
+		"minimalist",
+        "glister"
+    ],
+    "categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "glister",
+				"uiTheme": "vs",
+				"path": "./themes/glister-theme.json"
+			}
+		]
+	}
+}
